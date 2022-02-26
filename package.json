@@ -1,0 +1,28 @@
+{
+  "name": "@automan-component/mapbox-devtool",
+  "version": "0.3.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "author": "qianh",
+  "dependencies": {
+    "alpinejs": "^3.7.1"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "file-loader": "^6.2.0",
+    "postcss": "^8.4.5",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.1.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
